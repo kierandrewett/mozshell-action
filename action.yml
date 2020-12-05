@@ -1,7 +1,9 @@
 name: 'Mozilla Shell GitHub Action'
 description: 'Run commands via the mozilla-build shell script'
 author: 'EnderDev'
-icon: 'terminal'
+branding:
+    icon: 'terminal'
+    color: 'green'
 runs:
   using: 'node12'
   main: 'dist/index.js'
